@@ -1,0 +1,35 @@
+body{
+    background-color: aliceblue;
+}
+table{
+    width: 80%;
+    margin: 40px auto;
+    background-color: lightgray;
+}
+table.list{
+    text-align: center;
+    width: 100%;
+
+}
+td{
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px 15px;
+}
+tr:nth-child(even), table.list thread> tr{
+    background-color: rgb(204, 200, 200);
+}
+input[type="text"], input[type="number"]{
+    width: 91%;
+    display: inline-block;
+    border: 1px solid black;
+}
+input[type="submit"], input[type="reset"]{
+    background-color: rgb(#eee);
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+.inputdetails{
+    padding: 10px;
+}
